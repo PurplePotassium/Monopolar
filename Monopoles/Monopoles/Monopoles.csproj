@@ -61,10 +61,10 @@
     <XnaCompressContent>true</XnaCompressContent>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>82196403A0EFF87361BE2A1513D860A24652B371</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>7D711127D2A3F34CF860033A55F913AC399CE242</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>Monopoles_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>Monopoles_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -121,6 +121,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Balltron.cs" />
+    <Compile Include="Bumper.cs" />
     <Compile Include="HealthPack.cs" />
     <Compile Include="DropDown.cs" />
     <Compile Include="Particle.cs" />
@@ -175,6 +176,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Monopoles_1_TemporaryKey.pfx" />
     <None Include="Monopoles_TemporaryKey.pfx" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

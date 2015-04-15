@@ -93,6 +93,7 @@ namespace Monopoles{
                 if(dropindex > 0){// && Rand.Chance(.4f)){
                     b = new DropDown(new HealthPack(),Rand.Vector2(_G.WorldSize));
                     Drops.Add(b);
+                    Drops.Add(new DropDown(new Bumper(true), Rand.Vector2(_G.WorldSize)));
                 }
 
                 nextdrop = 480;//Rand.Int(500,1000);
